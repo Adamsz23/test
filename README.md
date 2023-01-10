@@ -15,3 +15,13 @@ Artist:	    Martin Dubeau
 Writer:    	Mary DeMarle
 Composer:	Michael McCann
             Sascha Dikiciyan
+            Series	Deus Ex
+Engine:   	Dawn Engine
+Platform:   Microsoft Windows
+            PlayStation 4
+            Xbox One
+            Linux
+            macOS
+Release:    August 23, 2016
+Genre:	    Action role-playing, first-person shooter, stealth
+Mode:	    Single-player
