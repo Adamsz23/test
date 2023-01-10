@@ -1,6 +1,9 @@
 Nákvæmlega um einn af mínum uppáhalds tölvuleikjum:
 Deus Ex: Mankind Divided.
 
+Short about the game:
+Deus Ex: Mankind Divided is an action role-playing game with first-person shooter and stealth mechanics. Players take the role of Adam Jensen, a man equipped with mechanical cybernetic implants called augmentations.[3][4] The game's environments, ranging from open-world hubs to more scripted environments, are explored in first person; actions such as hiding behind cover, conversing with non-playable characters (NPCs) and some attack animations switch to a third-person view.
+
 Developer:	Eidos Montréal
 Publisher:	Square Enix Europe
 Director:	Jean-François Dugas
@@ -27,6 +30,3 @@ Platform:   Microsoft Windows
 Release:    August 23, 2016
 Genre:	    Action role-playing, first-person shooter, stealth
 Mode:	    Single-player
-
-Short about game:
-Deus Ex: Mankind Divided is an action role-playing game with first-person shooter and stealth mechanics. Players take the role of Adam Jensen, a man equipped with mechanical cybernetic implants called augmentations.[3][4] The game's environments, ranging from open-world hubs to more scripted environments, are explored in first person; actions such as hiding behind cover, conversing with non-playable characters (NPCs) and some attack animations switch to a third-person view.
