@@ -1,5 +1,0 @@
-nafn = input(“Sláðu inn nafnið þitt”)
-faedingarar = int(input(“Hvaða ár ertu fæddur”))
-
-print("Gondan daginn",nafn)
-print("Pu verdur hundrad ara arid", verdurHundrad)
