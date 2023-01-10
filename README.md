@@ -1,4 +1,6 @@
-Nákvæmlega um einn af mínum uppáhalds tölvuleikjum: Deus Ex: Mankind Divided.
+Nákvæmlega um einn af mínum uppáhalds tölvuleikjum:
+Deus Ex: Mankind Divided.
+
 Developer:	Eidos Montréal
 Publisher:	Square Enix Europe
 Director:	Jean-François Dugas
