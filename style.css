@@ -1,4 +1,10 @@
-body{background: green;
+body{background: rgb(0, 128, 124);
 color: blueviolet;
-font-family: Arial, Helvetica, sans-serif
-;}
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: red;
+    font-style: italic;
+    font-size: 60px;
+}
