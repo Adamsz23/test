@@ -13,7 +13,5 @@ Synthwave, rafræn
 
 Fyrstu plötur hans voru: Descend, Detached og Deflection
 
-
-
 Vefsíður:
-SoundCloud, Twitter, instagram.com, Bandcamp
+SoundCloud, Twitter, instagram.com, Bandcamp.
