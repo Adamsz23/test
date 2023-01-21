@@ -10,7 +10,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;}
         
 h1{
-    color:  rgb(255, 0, 149);
+    color:  rgb(255, 255, 255);
     font-style: Arial;
     font-size: 60px;}
 
@@ -29,7 +29,17 @@ h4{
     font-style: Arial;
     font-size: 40px;}
 
+h5{
+    color: rgb(255, 0, 149);
+    font-style: Arial;
+    font-size: 40px;}
+
+h6{
+    color: rgb(255, 0, 149);
+    font-style: Arial;
+    font-size: 40px;}
+
 hr{
-        height: 1px;
+        height: 4px;
         background-color: rgb(255, 0, 149);
         border: none;}
