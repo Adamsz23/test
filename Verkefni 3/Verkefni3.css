@@ -1,0 +1,22 @@
+div{
+    margin: 0px;
+    padding: 10px;
+    border: 1px dotted black;
+}
+
+.tveir_dálkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.þrír_dálkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.fjórir_dálkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
