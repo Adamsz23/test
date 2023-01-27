@@ -1,33 +1,29 @@
+body{
+color: rgb(0, 0, 0);
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
 section{
-    border : 1px solid #000000;}
+    border : 1px solid #000000;
+}
 
 div{
     margin: 0px;
-    padding: 10px;}
+    padding: 10px;
+}
 
 .tveir_dálkar{
     display: grid;
-    grid-template-columns: 1fr 1fr;}
+    grid-template-columns: 1fr 1fr;
+}
 
 .þrír_dálkar{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;}
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 .fjórir_dálkar{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;}
-
-h1{
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;}
-
-h2{
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;}
-
-h3{
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;}
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
