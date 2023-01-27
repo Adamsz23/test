@@ -12,8 +12,22 @@ h1{
     font-size: 70px;
 }
 
-.tveir_dálkar{margin: 0;
+h2{
+    font-size: 35px;
+}
+
+.Fréttir{
+    margin: 0;
     padding: 5px;
     background-color: rgb(255, 255, 255);
     color: rgb(114, 147, 195);
+}
+
+aside {
+    width: 50%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgb(0, 7, 83);
 }
