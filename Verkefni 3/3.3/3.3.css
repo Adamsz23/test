@@ -1,40 +1,31 @@
 body{
-    max-width: auto;
     margin: auto;
-    border : 4px solid #ffffff;
-    background: rgb(114, 147, 195);
+    border : 8px solid rgb(0, 7, 83);
+    background: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-style: Arial;
     font-size: auto;
     color: rgb(255, 255, 255)
 }
 
-h1{
-    font-size: 70px;
-}
-
-h2{
-    font-size: 35px;
+header {
+    color: rgb(0, 7, 83);
 }
 
 main {
-    width: 100%;
-    margin: 0;
-    padding: 5px;
     background-color: rgb(0, 7, 83);
 }
 
-.Fréttir{
-    width: 100%;
-    margin: 0;
+nav {
     padding: 5px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(114, 147, 195);
 }
 
-section {
-    width: 50%;
-    margin-left: 10px;
+article {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 7, 83);
 }
 
 aside {
@@ -44,8 +35,19 @@ aside {
     background-color: rgb(0, 7, 83);
 }
 
+section {
+    width: 50%;
+}
+
 footer {
-    width: 100%;
-    padding: 5px;
+    padding: 8px;
     background-color: rgb(0, 7, 83);
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 35px;
 }
