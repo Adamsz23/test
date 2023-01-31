@@ -24,25 +24,25 @@ footer {
 }
 
 div{
-border: 4px solid black;
+    border: 4px solid black;
 }
 
 @media screen and (min-width:450px){
-    .wrapper {
+    .wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width:500px){
-    .wrapper {
+    .wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media screen and (min-width:1000px){
-    .wrapper {
+    .wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
