@@ -23,18 +23,15 @@ div{
 border: 1px solid black;
 }
 
-.wrapper{
-    display: grid;
-    grid-gap: 3px;
-    grid-template-columns: 1fr 1fr 1fr;
-
-    grid-template-areas:
-    "a c b"
-    "c a b";
-}
-
 @media screen(min-width: 480px){
     
-    body{
-}
+    .wrapper{
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        grid-template-areas:
+        "a a" #tablet
+        "b c";
+    }
 }
