@@ -1,4 +1,4 @@
-body {
+body{
     margin: auto;
     color: rgb(0, 0, 0);
     font-size: auto;
@@ -6,25 +6,25 @@ body {
     background-color: rgb(57, 55, 188);
 }
 
-section {
-    margin: auto;
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+header{
+    background-color: rgb(177, 56, 42);
+}
+
+main{
     background-color: rgb(57, 55, 188);
 }
 
-footer {
-    margin: auto;
-    width: 100%;
-    padding: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
+footer{
     background-color: rgb(177, 56, 42);
 }
 
 div{
-    border: 4px solid black;
+    border: 2px solid black;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 @media screen and (min-width:450px){
