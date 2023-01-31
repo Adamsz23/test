@@ -32,3 +32,9 @@ border: 1px solid black;
     "a c b"
     "c a b";
 }
+
+@media screen(min-width: 480px){
+    
+    body{
+}
+}
