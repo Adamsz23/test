@@ -1,30 +1,42 @@
-body {
+body{
     color: rgb(0, 0, 0);
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section {
+header{
+    border : 2px solid #000000;
+}
+
+section{
     border : 2px solid #000000;
 }
 
 @media screen and (min-width:450px){
-    .tveir_dálkar {
+    .tveir_dálkar{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width:500px){
-    .þrír_dálkar {
+    .þrír_dálkar{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media screen and (min-width:1000px){
-    .fjórir_dálkar {
+    .fjórir_dálkar{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+
+nav{
+    border : 2px solid #000000;
+}
+
+footer{
+    border : 2px solid #000000;
 }
