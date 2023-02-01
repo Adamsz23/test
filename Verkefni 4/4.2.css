@@ -13,21 +13,21 @@ section{
 }
 
 @media screen and (min-width:450px){
-    .tveir_dálkar{
+    .col-2{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width:500px){
-    .þrír_dálkar{
+    .col-3{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media screen and (min-width:1000px){
-    .fjórir_dálkar{
+    .col-4{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
