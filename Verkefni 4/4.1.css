@@ -11,11 +11,32 @@ section {
 @media screen and (min-width:450px){
     .tveir_dálkar {
         display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width:450px){
+    .tveir_dálkar {
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width:500px){
+    .þrír_dálkar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:500px){
+    .fjórir_dálkar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:1000px){
     .þrír_dálkar {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -26,12 +47,5 @@ section {
     .fjórir_dálkar {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (min-width:900px){
-    .fjórir_dálkar {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
     }
 }
