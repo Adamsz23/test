@@ -12,42 +12,27 @@ section{
     border : 2px solid #000000;
 }
 
-.col-2, .col-3, .col-4{
-    display: grid;
-    grid-template-columns: 1fr;
-
+@media screen and (min-width:37.5em){ 
+    .col-2, .col-3, .col-4{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
 }
 
 @media screen and (min-width:37.5em){ 
-    .col-2, .col-4  {
-        /*dálkar sem er breytt miðað við 600px skjábreidd;*/
-    } 
+    .col-2, .col-4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
 }
 
 @media screen and (min-width:48em){ 
-    .col-3, .col-4  {
-        /*dálkar sem er breytt miðað við 760px skjábreidd;*/
-    } 
-}
-
-@media screen and (min-width:450px){
-    .col-2{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media screen and (min-width:500px){
-    .col-3{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (min-width:1000px){
-    .col-4{
+    .col-2, .col-3, .col-4{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    
     }
 }
 
