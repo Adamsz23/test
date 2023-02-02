@@ -1,43 +1,39 @@
-body {
+body{
     color: rgb(0, 0, 0);
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section {
-    border : 2px solid #000000;
-}
-
 @media screen and (min-width:450px){
-    .tveir_dálkar {
+    .tveir_dálkar{
         display: grid;
         grid-template-columns: 1fr;
     }
 }
 
 @media screen and (min-width:500px){
-    .tveir_dálkar {
+    .tveir_dálkar{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width:500px){
-    .þrír_dálkar {
+    .þrír_dálkar{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width:1000px){
-    .þrír_dálkar {
+    .þrír_dálkar{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media screen and (min-width:500px){
-    .fjórir_dálkar {
+    .fjórir_dálkar{
         display: grid;
         grid-template-columns: 1fr 1fr;
         
@@ -45,29 +41,12 @@ section {
 }
 
 @media screen and (min-width:1000px){
-    .fjórir_dálkar {
+    .fjórir_dálkar{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
-
-
-
-
-.fjórir_dálkar1{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-@media screen and (min-width:600px){
-    .fjórir_dálkar1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-        "a a"
-        "b b"
-        "c c"
-        "d d";
-    }
+section {
+    border : 2px solid #000000;
 }
