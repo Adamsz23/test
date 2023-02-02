@@ -4,6 +4,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+section {
+    border : 2px solid #000000;
+}
+
 @media screen and (min-width:450px){
     .tveir_dálkar{
         display: grid;
@@ -45,8 +49,4 @@ body{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-}
-
-section {
-    border : 2px solid #000000;
 }

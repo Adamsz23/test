@@ -1,0 +1,27 @@
+html,body{
+    height: 100%;
+}
+body{
+    background: linear-gradient(yellow, blue);
+}
+
+.fjórir_dálkar1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-areas:
+    "a a"
+    "b b"
+    "c c"
+    "d d";
+}
+
+@media screen and (min-width:600px){
+.fjórir_dálkar1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    grid-template-areas:
+    "d c b a";
+}
+}
