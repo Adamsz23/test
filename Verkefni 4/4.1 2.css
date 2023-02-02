@@ -3,26 +3,65 @@ html,body{
 }
 
 body{
-    background: linear-gradient(yellow, blue);
+    background: linear-gradient(red, blue);
 }
 
-.fjórir_dálkar1{
+h1{
+   font-size: auto;
+}
+
+.a{
+    background: gold
+    grid-area: a;
+}
+
+.b{
+    background: silver
+    grid-area: b;
+}
+
+.c{
+    background: brown
+    grid-area: c;
+}
+
+.d{
+    background: coral
+    grid-area: d;
+}
+
+.wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 
     grid-template-areas:
-    "a a"
-    "b b"
-    "c c"
-    "d d";
+    "d"
+    "c"
+    "b"
+    "a";
 }
 
-@media screen and (min-width:600px){
-.fjórir_dálkar1{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+@media screen and (min-width:1000px){
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        grid-template-areas:
+        "a a"
+        "b b"
+        "c c"
+        "d d";
+    }
+}
+
+@media screen and (min-width:1000px){
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     
-    grid-template-areas:
-    "d c b a";
-}
+        grid-template-areas:
+        "d c b a";
+    }
 }
