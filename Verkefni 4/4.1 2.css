@@ -11,22 +11,22 @@ h1{
 }
 
 .a{
-    background: gold
+    background: gold;
     grid-area: a;
 }
 
 .b{
-    background: silver
+    background: silver;
     grid-area: b;
 }
 
 .c{
-    background: brown
+    background: brown;
     grid-area: c;
 }
 
 .d{
-    background: coral
+    background: coral;
     grid-area: d;
 }
 
