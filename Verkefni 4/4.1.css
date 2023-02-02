@@ -36,6 +36,14 @@ section {
     }
 }
 
+@media screen and (min-width:500px){
+    .tveir_dálkar{
+        display: grid;
+        grid-template-columns: 1fr;
+        background: green;
+    }
+}
+
 @media screen and (min-width:1000px){
     .tveir_dálkar{
         display: grid;
@@ -65,7 +73,6 @@ section {
         display: grid;
         grid-template-columns: 1fr 1fr;
         background: green;
-        
     }
 }
 
