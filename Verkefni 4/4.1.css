@@ -10,24 +10,24 @@ h1{
 header{
     padding: 5px;
     color: white;
-    background: rgb(83, 0, 156);
+    background-image: linear-gradient(rgb(42, 0, 79), rgb(83, 0, 156));
 }
 .txt{
     padding: 1px;
     color: white;
-    background: rgb(83, 0, 156);
+    background-image: linear-gradient(rgb(83, 0, 156), rgb(96, 0, 180));
 }
 .tveir_dálkar{
     padding: 5px;
-    background-image: linear-gradient(rgb(0, 255, 170), rgb(186, 255, 238));
+    background-image: linear-gradient(rgb(0, 255, 170), white);
 }
 .a{
     padding: 5px;
-    background-image: linear-gradient(rgb(0, 255, 170), rgb(186, 255, 238));
+    background-image: linear-gradient(rgb(0, 255, 170), white);
 }
 .fjórir_dálkar{
     padding: 5px;
-    background-image: linear-gradient(rgb(0, 255, 170), rgb(186, 255, 238));
+    background-image: linear-gradient(rgb(0, 255, 170), white);
 }
 @media screen and (min-width:350px) {
     .tveir_dálkar{
@@ -79,11 +79,11 @@ header{
 }
 nav {
     padding: 10px;
-    background-image: linear-gradient(rgb(0, 255, 170), rgb(186, 255, 238));
+    background-image: linear-gradient(rgb(0, 255, 170), white);
     color: rgb(83, 0, 156);
 }
 footer{
     padding: 5px;
     color: white;
-    background: rgb(83, 0, 156);
+    background-image: linear-gradient(rgb(83, 0, 156), rgb(42, 0, 79));
 }
