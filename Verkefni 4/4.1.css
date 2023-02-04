@@ -37,16 +37,12 @@ header{
     .a{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: 
-        "a";
     }
 }
 @media screen and (min-width:400px) {
     .b{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-        "b";
     }
 }
 @media screen and (min-width:350px) {
