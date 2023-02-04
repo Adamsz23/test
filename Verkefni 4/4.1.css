@@ -11,7 +11,8 @@ header{
     padding: 5px;
     background-image: linear-gradient(rgb(0, 255, 170), rgb(186, 255, 238));
 }
-main.{
+div{
+    padding: 1px;
     background-image: linear-gradient(rgb(0, 255, 170), rgb(186, 255, 238));
 }
 .tveir_dálkar{
