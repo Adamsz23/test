@@ -8,14 +8,14 @@ h1{
     font-size: 20px;
 }
 header{
-    padding: 5px;
+    padding: 30px;
     color: white;
     background-image: linear-gradient(rgb(42, 0, 79), rgb(83, 0, 156));
 }
 .headers_txts{
     padding: 1px;
     color: white;
-    background-image: linear-gradient(rgb(83, 0, 156), rgb(96, 0, 180));
+    background-image: linear-gradient(rgb(67, 0, 125), rgb(96, 0, 180));
 }
 .tveir_dálkar{
     padding: 5px;
