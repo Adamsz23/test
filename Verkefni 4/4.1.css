@@ -1,75 +1,67 @@
-body {
+body{
     font-size: 10px;
     margin: auto;
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(140, 140, 140);
 }
-header {
-    margin: auto;
+header{
     padding: 5px;
     background: rgb(133, 0, 0)
 }
 .tveir_dálkar{
-    margin: auto;
     padding: 5px;
     background: rgb(59, 59, 59);
 }
 .a{
-    margin: auto;
     padding: 5px;
     background: rgb(133, 0, 0);
 }
-.b{
-    margin: auto;
+.fjórir_dálkar{
     padding: 5px;
-    background: rgb(133, 0, 0);
-}
-.fjórir_dálkar {
     background: rgb(59, 59, 59);
 }
 @media screen and (min-width:350px) {
-    .tveir_dálkar {
+    .tveir_dálkar{
         display: grid;
         grid-template-columns: 1fr;
     }
 }
 @media screen and (min-width:800px) {
-    .tveir_dálkar {
+    .tveir_dálkar{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 @media screen and (min-width:800px) {
-    .a {
+    .a{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
-        "a b c";
+        "a";
     }
 }
 @media screen and (min-width:400px) {
-    .b {
+    .b{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
-        "b c";
+        "b";
     }
 }
 @media screen and (min-width:350px) {
-    .fjórir_dálkar {
+    .fjórir_dálkar{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 @media screen and (min-width:800px) {
-    .fjórir_dálkar {
+    .fjórir_dálkar{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
-footer {
-    margin: auto;
+footer{
     padding: 5px;
     background: rgb(133, 0, 0)
 }
