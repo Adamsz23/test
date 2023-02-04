@@ -18,17 +18,17 @@ header {
 .a{
     margin: auto;
     padding: 5px;
-    background: rgb(133, 0, 0)
+    background: rgb(133, 0, 0);
 }
 .b{
     margin: auto;
     padding: 5px;
-    background: rgb(59, 59, 59);
+    background: rgb(133, 0, 0);
 }
 .fjórir_dálkar {
     background: rgb(59, 59, 59);
 }
-@media screen and (min-width:400px) {
+@media screen and (min-width:350px) {
     .tveir_dálkar {
         display: grid;
         grid-template-columns: 1fr;
@@ -48,7 +48,7 @@ header {
         "a b c";
     }
 }
-@media screen and (min-width:600px) {
+@media screen and (min-width:400px) {
     .b {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -56,7 +56,7 @@ header {
         "b c";
     }
 }
-@media screen and (min-width:400px) {
+@media screen and (min-width:350px) {
     .fjórir_dálkar {
         display: grid;
         grid-template-columns: 1fr 1fr;
