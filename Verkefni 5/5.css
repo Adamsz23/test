@@ -11,24 +11,14 @@ img{
 .txt{
     padding: 1px;
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(rgb(255, 0, 200), rgb(72, 0, 134))
+    background-image: linear-gradient(rgb(255, 0, 200), rgb(48, 0, 90))
 }
 h1{
     font-size: 70px;
-
 }
 h2{
     font-size: 25px;
 }
 h3{
     font-size: 15px;
-}
-.Descend{
-
-}
-.Detached{
-
-}
-.Deflection{
-    
 }
