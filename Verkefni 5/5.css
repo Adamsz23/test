@@ -11,8 +11,30 @@ header{
     background-image: linear-gradient(rgb(255, 0, 200), rgb(48, 0, 90))
 }
 img{
+    display:block;
     width: 100%;
     height: auto;
+}
+.mynd_rod{
+    display:grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr;
+}
+@media screen and (min-width:512px) {
+    
+    .mynd_rod{
+        display:grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width:1024px) {
+    
+    .mynd_rod{
+        display:grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 .txt{
     padding: 1px;
