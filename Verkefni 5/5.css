@@ -20,7 +20,7 @@ img{
     grid-gap: 15px;
     grid-template-columns: 1fr;
 }
-@media screen and (min-width:512px) {
+@media screen and (min-width:600px) {
     
     .mynd_rod{
         display:grid;
@@ -28,7 +28,23 @@ img{
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and (min-width:1024px) {
+@media screen and (min-width:768px) {
+    
+    .mynd_rod{
+        display:grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width:1280px) {
+    
+    .mynd_rod{
+        display:grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width:2000px) {
     
     .mynd_rod{
         display:grid;
