@@ -66,3 +66,18 @@ h2{
 h3{
     font-size: 15px;
 }
+.photo{
+    padding: 5px;
+    width: 500px;
+    height: 500px;
+}
+.txt1{
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(255, 147, 232), rgb(48, 0, 90))
+}
+figcaption{
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
