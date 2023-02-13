@@ -12,5 +12,6 @@ header{
     color: white;
     background-image: linear-gradient(rgb(255, 198, 243), rgb(48, 0, 90))
 }
-{
+html{
+    scroll-behavior: smooth;
 }
