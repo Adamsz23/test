@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
 body{
     font-size: auto;
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Megrim', cursive;
     color: white;
     background: rgb(19, 0, 43);
 }
