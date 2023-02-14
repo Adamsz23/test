@@ -32,6 +32,12 @@ audio{
     color: white;
     background-image: linear-gradient(white, black)
 }
+footer{
+    width: 100%;
+    padding: 5px;
+    color: white;
+    background-image: linear-gradient(white, black)
+}
 a{
 color: red; 
 }
@@ -39,8 +45,15 @@ h1{
     font-size: 50px;
 }
 h2{
-    font-size: 30px;
+    font-size: 35px;
+    color: red; 
 }
 h3{
     font-size: 25px;
+}
+shadow{
+    width: 100%;
+    padding: 5px;
+    color: white;
+    background-image: linear-gradient(white, black)
 }
