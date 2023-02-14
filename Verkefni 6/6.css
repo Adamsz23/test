@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 html{
     scroll-behavior: smooth;
 }
 body{
     font-size: auto;
     margin: auto;
-    font-family: 'Metal Mania', cursive;
-    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
     background: black;
+    background-image: linear-gradient(black, white)
 }
 header{
     padding: 5px;
     color: white;
-    background-image: linear-gradient(white, black)
 }
 .upp{
     position: fixed;
@@ -21,8 +21,26 @@ header{
 
     width: 50px;
     height: 50px;
-    background: white;
+    background: red;
     border-radius: 50%;
 
     color: black;
+}
+audio{
+    width: 100%;
+    padding: 5px;
+    color: white;
+    background-image: linear-gradient(white, black)
+}
+a{
+color: red; 
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
 }
