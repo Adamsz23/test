@@ -3,57 +3,56 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-size: auto;
     margin: auto;
     font-family: 'Josefin Sans', sans-serif;
-    color: black;
-    background: black;
-    background-image: linear-gradient(black, white)
+    background-image: linear-gradient(red, white);
 }
 header{
-    padding: 5px;
     color: white;
-}
-.upp{
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-
-    width: 50px;
-    height: 50px;
-    background: red;
-    border-radius: 50%;
-
-    color: black;
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(black, red);
 }
 audio{
     width: 100%;
-    padding: 5px;
-    color: white;
-    background-image: linear-gradient(white, black)
+    padding: 2px;
 }
 footer{
-    width: 100%;
-    padding: 5px;
     color: white;
-    background-image: linear-gradient(white, black)
+    width: 100%;
+    padding: 30px;
+    background-image: linear-gradient(white, black);
 }
 a{
-color: red; 
+    color: black; 
 }
 h1{
     font-size: 50px;
 }
 h2{
     font-size: 35px;
-    color: red; 
 }
 h3{
     font-size: 25px;
 }
-shadow{
-    width: 100%;
-    padding: 5px;
-    color: white;
-    background-image: linear-gradient(white, black)
+.upp1{
+    position: fixed;
+    bottom: 70px;
+    right: 50px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    color: red;
+}
+.upp2{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: black;
 }
