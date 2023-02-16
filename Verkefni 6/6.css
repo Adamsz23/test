@@ -4,15 +4,14 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    margin: auto;
+    width: auto;
     font-family: 'Josefin Sans', sans-serif;
-    background-image: linear-gradient(red, white, black);
+    background-image: linear-gradient(black, red, white, black);
 }
 header{
+    width: auto;
     color: white;
-    width: 100%;
     padding: 10px;
-    background-image: linear-gradient(black, red);
 }
 audio{
     width: 100%;
@@ -20,8 +19,6 @@ audio{
 }
 footer{
     color: white;
-    width: 100%;
-    padding: 30px;
 }
 a{
     color: white; 
