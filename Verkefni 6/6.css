@@ -1,49 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 body{
-    width: auto;
+    color:white;
     font-family: 'Josefin Sans', sans-serif;
-    background-image: linear-gradient(black, red, white, black);
+    background-image: linear-gradient(rgb(1, 16, 37), rgb(255, 32, 177), rgb(1, 16, 37), rgb(255, 32, 177), rgb(1, 16, 37));
 }
 header{
-    width: auto;
-    color: white;
-    padding: 10px;
+    width:auto;
+    padding:10px;
+}
+.track_box{
+    width:100%;
+    padding:2px;
+    background-image: linear-gradient(rgb(1, 16, 37), rgb(255, 32, 177), rgb(1, 16, 37))
 }
 audio{
-    width: 100%;
-    padding: 2px;
+    width:100%;
+    padding:2px;
 }
 .txt{
-    padding: 5px;
-}
-footer{
-    color: white;
+    padding:5px;
 }
 a{
-    color: white; 
+    color:white; 
 }
 h1{
-    font-size: 50px;
+    font-size:70px;
 }
 h2{
-    font-size: 35px;
+    font-size:35px;
 }
 h3{
-    font-size: 25px;
+    font-size:25px;
 }
 .upp{
     position: fixed;
-    bottom: 60px;
-    right: 60px;
-    width: 60px;
-    height: 60px;
-    background: white;
-    border-radius: 50%;
-
-    font-size: 50px;
-    color: black;
+    bottom:60px;
+    right:60px;
+    width:60px;
+    height:60px;
+    background-image: linear-gradient(rgb(255, 32, 177), rgb(1, 16, 37), rgb(255, 32, 177));
+    border-radius:50%;
+    font-size:50px;
+    color: white;
 }
