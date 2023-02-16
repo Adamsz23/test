@@ -22,6 +22,57 @@ audio{
 .txt{
     padding:5px;
 }
+img{
+    display:block;
+    width: 100%;
+    height: auto;
+}
+.mynd_rod{
+    display:grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr;
+}
+@media screen and (min-width:600px) {
+    
+    .mynd_rod{
+        display:grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width:768px) {
+    
+    .mynd_rod{
+        display:grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width:1280px) {
+    
+    .mynd_rod{
+        display:grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width:2000px) {
+    
+    .mynd_rod{
+        display:grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+figcaption{
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+figure{
+    padding: 7px;
+    background-image: linear-gradient(rgb(255, 198, 243), rgb(48, 0, 90))
+}
 footer{
     color:rgb(255, 32, 177);
 }  
