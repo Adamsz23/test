@@ -6,24 +6,25 @@ html{
 body{
     color:white;
     font-family: 'Josefin Sans', sans-serif;
-    background-image: linear-gradient(rgb(1, 16, 37), rgb(255, 32, 177), rgb(1, 16, 37), rgb(255, 32, 177), rgb(1, 16, 37));
+    background-image: linear-gradient(rgb(1, 16, 37),rgb(255, 32, 177),rgb(1, 16, 37),rgb(255, 32, 177),rgb(1, 16, 37));
 }
 header{
-    width:auto;
     padding:10px;
 }
 .track_box{
-    width:100%;
-    padding:2px;
-    background-image: linear-gradient(rgb(1, 16, 37), rgb(255, 32, 177), rgb(1, 16, 37))
+    padding: 1%;
+    background-image: linear-gradient(rgb(1, 16, 37),rgb(255, 32, 177),rgb(1, 16, 37))
 }
 audio{
     width:100%;
-    padding:2px;
+    padding: auto;
 }
 .txt{
     padding:5px;
 }
+footer{
+    color:rgb(255, 32, 177);
+}  
 a{
     color:white; 
 }
