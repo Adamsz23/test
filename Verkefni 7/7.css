@@ -1,6 +1,14 @@
+body{
+    background-color:white;
+    color: black;
+}
 table{
-    width: 100%;
+    width: 50%;
+    background-color:blue
+}
+th{
+    background-color:red;
 }
 tr{
-    background-color: red;
+    background-color:blue;
 }
