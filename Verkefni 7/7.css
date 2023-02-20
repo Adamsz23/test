@@ -9,6 +9,9 @@ table{
     font-size: 25px;
     color: white;
 }
+caption{
+    color:rgb(37, 21, 73);
+}
 th{
     background-color:rgb(37, 21, 73);
 }
@@ -23,7 +26,4 @@ h2{
 }
 h3{
     font-size: 35px;
-}
-caption{
-    color:rgb(37, 21, 73);
 }
