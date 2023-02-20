@@ -1,9 +1,6 @@
 table{
     width: 100%;
 }
-th{
-    background-color: red;
-}
-td{
+tr{
     background-color: red;
 }
