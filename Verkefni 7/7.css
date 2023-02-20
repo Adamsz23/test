@@ -1,3 +1,9 @@
 table{
     width: 100%;
 }
+th{
+    background-color: red;
+}
+td{
+    background-color: red;
+}
