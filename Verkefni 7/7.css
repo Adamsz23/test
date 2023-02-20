@@ -1,14 +1,29 @@
 body{
     background-color:white;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 table{
-    width: 50%;
-    background-color:blue
+    width: 100%;
+    background-color:white;
+    font-size: 25px;
+    color: white;
 }
 th{
-    background-color:red;
+    background-color:rgb(37, 21, 73);
 }
 tr{
-    background-color:blue;
+    background-color:rgb(37, 21, 73);
+}
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 35px;
+}
+caption{
+    color:rgb(37, 21, 73);
 }
