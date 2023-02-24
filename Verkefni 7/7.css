@@ -1,32 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 body{
-    background-color:white;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgb(233, 212, 255),rgb(1, 16, 37));
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+}
+.head1{
+    color:rgb(37, 21, 73);
 }
 table{
     width: 100%;
     font-size: 25px;
     color: white;
-    border : 4px solid black;
+    padding: 2px;
+    background: rgb(233, 212, 255);
 }
 caption{
     color:rgb(37, 21, 73);
     padding: 5px;
-}
-th, td{
-    background-image: linear-gradient(rgb(1, 16, 37),rgb(140, 32, 255),rgb(233, 212, 255));
-    border: 4px solid black;
-    padding: 5px;
+    font-size: 35px;
 }
 form{
-    width: 40%;
+    font-size: 20px;
+    width: 60%;
     padding: 10px;
-    background-image: linear-gradient(rgb(1, 16, 37),rgb(140, 32, 255),rgb(233, 212, 255));
+    background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255));
     color: white;
-    border : 4px solid black;
+}
+th, td{
+    background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255));
+    border: 4px solid rgb(12, 34, 67);
+    padding: 15px;
 }
 legend{
     padding: 10px;
+}
+@media screen and (max-width:600px) {
+    thead{
+        display: none;
+    }
+    td{
+        display: block;
+        text-align: right;
+    }
+    .tr1{
+        display: block;
+        margin-bottom: 15px;
+    }
+    .tr2{
+        display: block;
+        margin-bottom: 15px;
+    }
+    tr{
+        display: block;
+        margin-bottom: 0px;
+    }
+    td::before{
+       content: attr(data);
+       float: left;
+    }
 }
 h1{
     font-size: 55px;
@@ -37,20 +69,7 @@ h2{
 h3{
     font-size: 35px;
 }
-@media screen and (max-width:600px) {
-    thead{
-        display: none;
-    }
-    td{
-        display: block;
-        text-align: right;
-    }
-    tr{
-        display: block;
-        margin-bottom: 5px;
-    }
-    td::before{
-       content: attr(data);
-       float: left;
-    }
+footer{
+    font-size: 25px;
+    color: white;
 }
