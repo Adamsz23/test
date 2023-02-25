@@ -16,7 +16,12 @@ header{
 audio{
     width:100%;
 }
-.txt{
+.p1{
+    width: 25%;
+    height: auto;
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(233, 212, 255),rgb(1, 16, 37));
 }
 img{
     display:block;
