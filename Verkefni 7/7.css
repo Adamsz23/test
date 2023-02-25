@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
-body{
-    background-image: linear-gradient(rgb(233, 212, 255),rgb(1, 16, 37));
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    padding: 10px;
+
+html{
+    scroll-behavior:smooth;
 }
-.head1{
-    color:rgb(37, 21, 73);
+body{
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(rgb(1, 16, 37),rgb(255, 32, 177),rgb(1, 16, 37),rgb(255, 32, 177),rgb(1, 16, 37));
+}
+header{
+    padding:10px;
 }
 .track_box{
     padding: 1%;
@@ -15,7 +18,87 @@ body{
 audio{
     width:100%;
     padding: auto;
+}
+.txt{
+    padding:5px;
+}
+img{
+    display:block;
+    width: 100%;
+    height: auto;
+}
+.mynd_rod{
+    display:grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr;
+}
+@media screen and (min-width:600px) {
+    
+    .mynd_rod{
+        display:grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width:768px) {
+    
+    .mynd_rod{
+        display:grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width:1280px) {
+    
+    .mynd_rod{
+        display:grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width:2000px) {
+    
+    .mynd_rod{
+        display:grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+figcaption{
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+figure{
+    padding: 7px;
+    background-image: linear-gradient(rgb(255, 198, 243), rgb(48, 0, 90))
+}
+footer{
+    color:rgb(255, 32, 177);
 }  
+a{
+    color:white; 
+}
+h1{
+    font-size:70px;
+}
+h2{
+    font-size:35px;
+}
+h3{
+    font-size:25px;
+}
+.upp{
+    position: fixed;
+    bottom:60px;
+    right:60px;
+    width:60px;
+    height:60px;
+    background-image: linear-gradient(rgb(255, 32, 177), rgb(1, 16, 37), rgb(255, 32, 177));
+    border-radius:50%;
+    font-size:50px;
+    color: white;
+}
 table{
     width: 100%;
     font-size: 25px;
