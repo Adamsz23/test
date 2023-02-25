@@ -152,3 +152,10 @@ legend{
        float: left;
     }
 }
+.body2{
+    background-image: linear-gradient(rgb(1, 16, 37), rgb(233, 212, 255), rgb(1, 16, 37));
+}
+.main2{
+    padding: 10px;
+    background-image: linear-gradient(rgb(1, 16, 37), rgb(233, 212, 255));
+}
