@@ -84,17 +84,18 @@ a{
     color:rgb(1, 16, 37);
 }
 table{
-    width: 100%;
+    width: 80%;
     padding: 2px;
     background: white;
 }
 caption{
     color:rgb(37, 21, 73);
     padding: 5px;
+    font-size:40px;
 }
 form{
     font-size: 20px;
-    width: 100%;
+    width: 50%;
     padding: 10px;
     background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255));
 }
