@@ -8,6 +8,14 @@ body{
 .head1{
     color:rgb(37, 21, 73);
 }
+.track_box{
+    padding: 1%;
+    background-image: linear-gradient(rgb(1, 16, 37),rgb(255, 32, 177),rgb(1, 16, 37))
+}
+audio{
+    width:100%;
+    padding: auto;
+}  
 table{
     width: 100%;
     font-size: 25px;
