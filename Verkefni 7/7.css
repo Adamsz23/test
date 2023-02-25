@@ -68,7 +68,7 @@ figcaption{
 }
 figure{
     padding: 7px;
-    background-image: linear-gradient(rgb(255, 198, 243), rgb(48, 0, 90))
+    background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255),rgb(1, 16, 37));
 }  
 a{
     color:white; 
