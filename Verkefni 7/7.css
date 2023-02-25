@@ -1,50 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 html{
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 body{
-    color:white;
+    color: white;
     font-family: 'Josefin Sans', sans-serif;
-    background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255),rgb(1, 16, 37));
+    background-image: linear-gradient(rgb(1, 16, 37), rgb(233, 212, 255), rgb(1, 16, 37));
 }
 header{
-    font-size:40px;
+    font-size: 40px;
 }
 .track_box{
-    background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255),rgb(1, 16, 37));
+    background-image: linear-gradient(rgb(1, 16, 37), rgb(233, 212, 255), rgb(1, 16, 37));
 }
 audio{
-    width:100%;
+    width: 100%;
+}
+a{
+    color: white; 
+}
+@media screen and (min-width: 350px) {
+    .tveir_dálkar{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 800px) {
+    .tveir_dálkar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.tveir_dálkar{
+    background-image: linear-gradient(rgb(1, 16, 37), rgb(233, 212, 255));
+}
+.txt{
+    width: 100%;
+    padding-left: 10px;
 }
 .p1{
-    width: 25%;
-    height: auto;
-    padding: 1px;
-    color: rgb(255, 255, 255);
-    background-image: linear-gradient(rgb(233, 212, 255),rgb(1, 16, 37));
+    width: 50%;
+    padding-right: 10px;
 }
 img{
-    display:block;
+    display: block;
     width: 100%;
     height: auto;
 }
 .mynd_rod{
-    display:grid;
+    display: grid;
     grid-gap: 15px;
     grid-template-columns: 1fr;
 }
-@media screen and (min-width:600px) {
+@media screen and (min-width: 600px) {
     
     .mynd_rod{
-        display:grid;
+        display: grid;
         grid-gap: 15px;
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     
     .mynd_rod{
-        display:grid;
+        display: grid;
         grid-gap: 15px;
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -52,41 +71,37 @@ img{
 @media screen and (min-width:1280px) {
     
     .mynd_rod{
-        display:grid;
+        display: grid;
         grid-gap: 15px;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-@media screen and (min-width:2000px) {
+@media screen and (min-width: 2000px) {
     
     .mynd_rod{
-        display:grid;
+        display: grid;
         grid-gap: 15px;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 figcaption{
     padding: 1px;
-    color: rgb(255, 255, 255);
     font-size: 15px;
 }
 figure{
     padding: 7px;
-    background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255),rgb(1, 16, 37));
-}  
-a{
-    color:white; 
+    background-image: linear-gradient(rgb(233, 212, 255), rgb(1, 16, 37));
 }
 .upp{
     position: fixed;
-    bottom:60px;
-    right:60px;
-    width:60px;
-    height:60px;
-    background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255),rgb(1, 16, 37));
-    border-radius:50%;
-    font-size:50px;
-    color:rgb(1, 16, 37);
+    bottom: 60px;
+    right: 60px;
+    width: 60px;
+    height: 60px;
+    background-image: linear-gradient(rgb(1, 16, 37), rgb(233, 212, 255), rgb(1, 16, 37));
+    border-radius: 50%;
+    font-size: 50px;
+    color: rgb(1, 16, 37);
 }
 table{
     width: 80%;
@@ -94,7 +109,7 @@ table{
     background: white;
 }
 caption{
-    color:rgb(37, 21, 73);
+    color: rgb(37, 21, 73);
     padding: 5px;
     font-size:40px;
 }
@@ -102,17 +117,17 @@ form{
     font-size: 20px;
     width: 50%;
     padding: 10px;
-    background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255));
+    background-image: linear-gradient(rgb(1, 16, 37), rgb(233, 212, 255));
 }
 th, td{
-    background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255));
+    background-image: linear-gradient(rgb(1, 16, 37), rgb(233, 212, 255));
     border: 4px solid rgb(12, 34, 67);
     padding: 15px;
 }
 legend{
     padding: 10px;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
     thead{
         display: none;
     }
