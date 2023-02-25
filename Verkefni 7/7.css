@@ -6,21 +6,18 @@ html{
 body{
     color:white;
     font-family: 'Josefin Sans', sans-serif;
-    background-image: linear-gradient(rgb(1, 16, 37),rgb(255, 32, 177),rgb(1, 16, 37),rgb(255, 32, 177),rgb(1, 16, 37));
+    background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255),rgb(1, 16, 37));
 }
 header{
-    padding:10px;
+    font-size:px;
 }
 .track_box{
-    padding: 1%;
-    background-image: linear-gradient(rgb(1, 16, 37),rgb(255, 32, 177),rgb(1, 16, 37))
+    background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255),rgb(1, 16, 37));
 }
 audio{
     width:100%;
-    padding: auto;
 }
 .txt{
-    padding:5px;
 }
 img{
     display:block;
@@ -72,21 +69,9 @@ figcaption{
 figure{
     padding: 7px;
     background-image: linear-gradient(rgb(255, 198, 243), rgb(48, 0, 90))
-}
-footer{
-    color:rgb(255, 32, 177);
 }  
 a{
     color:white; 
-}
-h1{
-    font-size:70px;
-}
-h2{
-    font-size:35px;
-}
-h3{
-    font-size:25px;
 }
 .upp{
     position: fixed;
@@ -94,29 +79,25 @@ h3{
     right:60px;
     width:60px;
     height:60px;
-    background-image: linear-gradient(rgb(255, 32, 177), rgb(1, 16, 37), rgb(255, 32, 177));
+    background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255),rgb(1, 16, 37));
     border-radius:50%;
     font-size:50px;
     color: white;
 }
 table{
     width: 100%;
-    font-size: 25px;
-    color: white;
     padding: 2px;
-    background: rgb(233, 212, 255);
+    background: white;
 }
 caption{
     color:rgb(37, 21, 73);
     padding: 5px;
-    font-size: 35px;
 }
 form{
     font-size: 20px;
     width: 60%;
     padding: 10px;
     background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255));
-    color: white;
 }
 th, td{
     background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255));
@@ -151,16 +132,5 @@ legend{
        float: left;
     }
 }
-h1{
-    font-size: 55px;
-}
-h2{
-    font-size: 45px;
-}
-h3{
-    font-size: 35px;
-}
 footer{
-    font-size: 25px;
-    color: white;
 }
