@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
-
 html{
     scroll-behavior:smooth;
 }
@@ -9,7 +8,7 @@ body{
     background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255),rgb(1, 16, 37));
 }
 header{
-    font-size:px;
+    font-size:40px;
 }
 .track_box{
     background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255),rgb(1, 16, 37));
@@ -95,7 +94,7 @@ caption{
 }
 form{
     font-size: 20px;
-    width: 60%;
+    width: 100%;
     padding: 10px;
     background-image: linear-gradient(rgb(1, 16, 37),rgb(233, 212, 255));
 }
